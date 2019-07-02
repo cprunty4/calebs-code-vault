@@ -21,6 +21,8 @@ namespace ConsoleApp1
 
             command.Execute();
 
+            Console.ReadLine();
+
 
         }
 
