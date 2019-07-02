@@ -7,13 +7,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
-
             var availableCommands = GetAvailableCommands();
 
             if (args.Length == 0) {
                 PrintUsage(availableCommands);
+                Console.ReadLine();
                 return;
             }
 
@@ -28,16 +26,17 @@ namespace ConsoleApp1
 
         private static void PrintUsage(IEnumerable<ICommandFactory> availableCommands)
         {
-            throw new NotImplementedException();
+            foreach(var command in availableCommands)
+                Console.WriteLine($"{command.CommandName}");
         }
 
         private static IEnumerable<ICommandFactory> GetAvailableCommands()
         {
             return new ICommandFactory[]
             {
-                new CreateOrderCommand(),
-                new UpdateQuantityCommand(),
-                new ShipOrderCommand()
+                //new CreateOrderCommand(),
+                new UpdateQuantityCommand()
+                //new ShipOrderCommand()
             };
         }
 
