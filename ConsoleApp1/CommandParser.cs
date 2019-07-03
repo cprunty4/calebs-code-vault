@@ -19,6 +19,9 @@ namespace ConsoleApp1
 
             var command = FindRequestedCommand(requestedCommandName);
 
+            if (command == null)
+                return new NotFoundCommand();
+
             return command.MakeCommand(args);
         }
 

@@ -19,6 +19,9 @@ namespace ConsoleApp1
 
             var command = parser.ParseCommand(args);
 
+            if (command == null)
+                command = new NotFoundCommand();
+
             command.Execute();
 
             Console.ReadLine();
