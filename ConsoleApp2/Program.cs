@@ -23,6 +23,8 @@ namespace ConsoleApp2
             {
                 case "bmw":
                     return new BMW335XI();
+                case "infiniti":
+                    return new InfinitiQx80();
                 default:
                     return new NullCar();
             }
