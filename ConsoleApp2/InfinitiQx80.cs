@@ -1,15 +1,17 @@
+using System;
+
 namespace ConsoleApp2 
 {
     internal class InfinitiQx80 : IAuto
     {
         public void TurnOff()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine($"");
         }
 
         public void TurnOn()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine($"Infiniti QX80 started");
         }
     }
 }
