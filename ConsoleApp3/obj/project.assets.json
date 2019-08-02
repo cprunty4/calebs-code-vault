@@ -519,7 +519,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.2.0": {
-      "sha512": "fXZigF95VZae5QRN2peDqNCB6Tc0g5N/iQNLy0xY2Mi51hdOeRPIB9X0u37xrmhfP6chM0ki92M96gAUp1O4DQ==",
+      "sha512": "39+GVHdbm+cmoOjdvm+fhiMbddnuVyUlBdYS8Yhn5xsNaBoTXpgBsxQQlI2Sv9EjIP0F+itG6yrDaOM2OEGupQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.2.0",
       "files": [
@@ -692,9 +692,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\command-pattern-demo\\ConsoleApp3\\ConsoleApp3.csproj",
-      "projectName": "ConsoleApp3",
-      "projectPath": "C:\\git\\command-pattern-demo\\ConsoleApp3\\ConsoleApp3.csproj",
+      "projectUniqueName": "C:\\git\\command-pattern-demo\\ConsoleApp3\\Decorator.csproj",
+      "projectName": "Decorator",
+      "projectPath": "C:\\git\\command-pattern-demo\\ConsoleApp3\\Decorator.csproj",
       "packagesPath": "C:\\Users\\prunce\\.nuget\\packages\\",
       "outputPath": "C:\\git\\command-pattern-demo\\ConsoleApp3\\obj\\",
       "projectStyle": "PackageReference",

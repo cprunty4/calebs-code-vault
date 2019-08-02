@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "ConsoleApp2": {
+    "Factory1": {
       "commandName": "Project",
-      "commandLineArgs": "fdafda"
+      "commandLineArgs": "blazer"
     }
   }
 }

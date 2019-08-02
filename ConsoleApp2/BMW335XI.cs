@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2
+﻿namespace Factory1
 {
     internal class BMW335XI : IAuto
     {

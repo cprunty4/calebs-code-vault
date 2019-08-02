@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace Command1
 {
     internal class NotFoundCommand : ICommand
     {

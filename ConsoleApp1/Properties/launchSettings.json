@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "ConsoleApp1": {
+    "Command1": {
       "commandName": "Project",
       "commandLineArgs": "fdafd"
     }

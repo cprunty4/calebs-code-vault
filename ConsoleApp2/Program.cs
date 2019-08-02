@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2
+namespace Factory1
 {
     class Program
     {
@@ -25,6 +25,8 @@ namespace ConsoleApp2
                     return new BMW335XI();
                 case "infiniti":
                     return new InfinitiQx80();
+                case "blazer":
+                    return new ChevyBlazer();
                 default:
                     return new NullCar();
             }

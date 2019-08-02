@@ -1,12 +1,12 @@
 using System;
 
-namespace ConsoleApp2 
+namespace Factory1 
 {
     internal class InfinitiQx80 : IAuto
     {
         public void TurnOff()
         {
-            Console.WriteLine($"");
+            Console.WriteLine($"goodbye");
         }
 
         public void TurnOn()

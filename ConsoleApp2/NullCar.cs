@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2
+namespace Factory1
 {
     internal class NullCar : IAuto
     {
