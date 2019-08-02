@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ConsoleApp1
+namespace Command1
 {
     internal class CommandParser
     {
@@ -18,6 +18,9 @@ namespace ConsoleApp1
             var requestedCommandName = args[0];
 
             var command = FindRequestedCommand(requestedCommandName);
+
+            if (command == null)
+                return new NotFoundCommand();
 
             return command.MakeCommand(args);
         }

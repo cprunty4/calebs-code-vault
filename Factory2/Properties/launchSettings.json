@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Factory2": {
+      "commandName": "Project",
+      "commandLineArgs": "chevyblazer"
+    }
+  }
+}

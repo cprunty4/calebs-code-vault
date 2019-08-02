@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ConsoleApp1
+namespace Command1
 {
     class Program
     {
@@ -18,6 +18,9 @@ namespace ConsoleApp1
             var parser = new CommandParser(availableCommands);
 
             var command = parser.ParseCommand(args);
+
+            if (command == null)
+                command = new NotFoundCommand();
 
             command.Execute();
 

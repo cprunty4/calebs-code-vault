@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1
+﻿namespace Command1
 {
     internal interface ICommandFactory
     {
