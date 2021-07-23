@@ -1,0 +1,11 @@
+C:\git\calebs-car-game\Factory2\bin\Debug\netcoreapp3.1\Factory2.exe
+C:\git\calebs-car-game\Factory2\bin\Debug\netcoreapp3.1\Factory2.deps.json
+C:\git\calebs-car-game\Factory2\bin\Debug\netcoreapp3.1\Factory2.runtimeconfig.json
+C:\git\calebs-car-game\Factory2\bin\Debug\netcoreapp3.1\Factory2.runtimeconfig.dev.json
+C:\git\calebs-car-game\Factory2\bin\Debug\netcoreapp3.1\Factory2.dll
+C:\git\calebs-car-game\Factory2\bin\Debug\netcoreapp3.1\Factory2.pdb
+C:\git\calebs-car-game\Factory2\obj\Debug\netcoreapp3.1\Factory2.csprojAssemblyReference.cache
+C:\git\calebs-car-game\Factory2\obj\Debug\netcoreapp3.1\Factory2.AssemblyInfoInputs.cache
+C:\git\calebs-car-game\Factory2\obj\Debug\netcoreapp3.1\Factory2.AssemblyInfo.cs
+C:\git\calebs-car-game\Factory2\obj\Debug\netcoreapp3.1\Factory2.dll
+C:\git\calebs-car-game\Factory2\obj\Debug\netcoreapp3.1\Factory2.pdb
