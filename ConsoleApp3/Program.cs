@@ -13,6 +13,15 @@ namespace Decorator1
             Console.WriteLine(largePizza.GetDescription());
             Console.WriteLine("{0:C2}", largePizza.CalculateCost());
 
+            Pizza largePinapplePizza = new LargePizza();
+
+            largePinapplePizza = new Cheese(largePinapplePizza);
+
+            largePinapplePizza = new Pineapple(largePinapplePizza);
+
+            Console.WriteLine(largePinapplePizza.GetDescription());
+            Console.WriteLine("{0:C2}", largePinapplePizza.CalculateCost());            
+
             Console.ReadKey();
         }
     }
