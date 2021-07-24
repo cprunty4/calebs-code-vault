@@ -9,3 +9,17 @@ Factory2/bin/*
 Factory2/obj/*
 Factory3/bin/*
 Factory3/obj/*
+
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
