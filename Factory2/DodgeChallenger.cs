@@ -12,7 +12,9 @@ namespace Factory2
         public void TurnOn()
         {
             Console.WriteLine("Dodge Challenger SRT Hellcat started");
-            Console.WriteLine("VRRRRROOOMMMMM!!!!");            
+            Console.WriteLine("VRRRRROOOMMMMM!!!!");
+            Console.WriteLine("POP POP POP POP");
+                       
         }
     }
 }
