@@ -1,4 +1,4 @@
-﻿namespace Factory1
+﻿namespace Factory2
 {
     internal class BMW335XI : IAuto
     {
