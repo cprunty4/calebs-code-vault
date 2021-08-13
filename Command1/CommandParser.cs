@@ -28,7 +28,7 @@ namespace Command1
         private ICommandFactory FindRequestedCommand(string requestedCommandName)
         {
             return availableCommands
-                .FirstOrDefault(cmd => cmd.CommandName == requestedCommandName);
+                .FirstOrDefault(cmd => cmd.CommandName.ToLower().Contains(requestedCommandName.ToLower()));
         }
     }
 }

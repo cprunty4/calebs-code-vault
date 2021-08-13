@@ -12,7 +12,7 @@ namespace Command1
 
         public void Execute()
         {
-            Console.WriteLine("Database updated");
+            Console.WriteLine($"NewQuantity {NewQuantity}");
         }
 
         public ICommand MakeCommand(string[] arguments)
