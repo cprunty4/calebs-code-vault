@@ -1,19 +1,21 @@
-﻿namespace Command1
+﻿using System;
+
+namespace Command1
 {
     internal class CreateOrderCommand : ICommandFactory, ICommand
     {
-        public string CommandName => throw new System.NotImplementedException();
+        public string CommandName => "CreateOrder";
 
-        public string Description => throw new System.NotImplementedException();
+        public string Description => "This is CreateOrderCommand's Description";
 
         public void Execute()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine($"Description {Description}");
         }
 
         public ICommand MakeCommand(string[] arguments)
         {
-            throw new System.NotImplementedException();
+            return new CreateOrderCommand();
         }
     }
 }

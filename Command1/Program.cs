@@ -39,9 +39,9 @@ namespace Command1
         {
             return new ICommandFactory[]
             {
-                //new CreateOrderCommand(),
-                new UpdateQuantityCommand()
-                //new ShipOrderCommand()
+                new CreateOrderCommand(),
+                new UpdateQuantityCommand(),
+                new ShipOrderCommand()
             };
         }
 
