@@ -14,7 +14,7 @@ namespace Factory2
         public void TurnOn()
         {
             Console.WriteLine("Suburban LT started");
-            Console.WriteLine("vrrrooomm brrrr");1
+            Console.WriteLine("vrrrooomm brrrr");
         }
     }
 }
