@@ -4,16 +4,16 @@ using System.Text;
 
 namespace Factory2
 {
-    public class ChevyBlazer : IAuto
+    public class ChevySuburban : IAuto
     {
         public void TurnOff()
         {
-            Console.WriteLine("blazer shut off");
+            Console.WriteLine("Suburban LT shut off");
         }
 
         public void TurnOn()
         {
-            Console.WriteLine("blazer started");
+            Console.WriteLine("Suburban LT started");
         }
     }
 }
