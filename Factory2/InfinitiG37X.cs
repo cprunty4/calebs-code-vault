@@ -6,7 +6,7 @@ namespace Factory2
     {
         public void TurnOff()
         {
-            Console.WriteLine("Infiniti G37X started");
+            Console.WriteLine("Infiniti G37X shutoff");
         }
 
         public void TurnOn()
