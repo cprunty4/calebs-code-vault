@@ -19,6 +19,9 @@ namespace Decorator1
 
             largePinapplePizza = new Pineapple(largePinapplePizza);
 
+            
+            largePinapplePizza = new CanadianBacon(largePinapplePizza);
+
             Console.WriteLine(largePinapplePizza.GetDescription());
             Console.WriteLine("{0:C2}", largePinapplePizza.CalculateCost());            
 
